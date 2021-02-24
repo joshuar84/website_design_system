@@ -1,0 +1,52 @@
+/* MAIN HEADERS */
+header h1,
+header h2{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Main containers */
+.containers {
+    margin: 20px;
+    border: 2px gray solid;
+    padding: 50px;
+}
+
+/* Color section */
+.color_flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored_div {
+    border: 1px gray solid;
+    margin: 5px;
+    padding: 100px 75px;
+}
+
+.color_info {
+    width: 85px;
+    height: 38px;
+}
+
+/* Limegreen */
+#color1 {
+    background-color: #32cd32;
+}
+
+/* Darkred */
+#color2 {
+    background-color: #8b0000;
+}
+
+/* Purple */
+#color3 {
+    background-color: #800080;
+}
+
+/* Burlywood */
+#color4 {
+    background-color: #deb887;
+}
