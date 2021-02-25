@@ -1,10 +1,12 @@
 /* MAIN HEADERS */
-header h1,
-header h2{
-    width: max-content;
-    margin: 0 auto;
-    text-align: center;
+header {
+    /* width: 28rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
 }
+
 
 /* Main containers */
 .containers {
@@ -58,62 +60,53 @@ header h2{
     background-color: #deb887;
 }
 
-@media screen 
-and (max-width: 425px) 
-and (min-width: 376px) {
-    body {
-        margin: 8px;
-        width: 86%;
-    }
-    
-    .containers {
-        width: 25.5em;
-    }
-
-    .containers h2 {
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .colored_div {
-        width: 100%;
-        padding: 4rem 9rem;
-    }
-}
 
 /* Tablet screen sizes */
 @media screen 
 and (max-width: 768px)
 and (min-width: 426px) {
+    .containers {
+        width: 46rem;
+    }
     .colored_div {
-        padding: 4em 5em;
+        padding: 4rem 6.8447rem;
     }
 }
 
 /* Mobile screen sizes */
 @media screen 
+and (max-width: 425px) 
+and (min-width: 376px) {   
+    .containers {
+        width: 25.5em;
+    }
+
+    .colored_div {
+        width: 100%;
+        padding: 4rem 9rem;
+    }
+}
+
+@media screen 
 and (max-width: 375px)
 and (min-width: 321px) {
     .containers {
-        width: 25em;
+        width: 22rem;
     }
-
+    
     .colored_div {
         width: 100%;
-        padding: 4rem 9rem;
+        padding: 4rem 7rem;
     }
 }
+
 
 @media screen and (max-width: 320px) {
     .containers {
-        width: 25em;
+        width: 19rem;
     }
 
     .colored_div {
-        width: 100%;
-        padding: 4rem 9rem;
+        padding: 4rem 5.5rem;
     }
 }
-
