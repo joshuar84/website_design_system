@@ -1,20 +1,34 @@
+/* Universal Styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
 /* MAIN HEADERS */
 header {
-    /* width: 28rem; */
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* flex-direction: row; */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 
 /* Main containers */
 .containers {
-    width: 90%;
-    box-sizing: border-box;
     margin: 1.5rem auto;
     border: 2px gray solid;
-    padding: 50px;
+    padding: 1rem;
+    max-width: 60rem;
 }
 
 /* Color section */
@@ -28,7 +42,7 @@ header {
 .colored_div {
     border: 1px gray solid;
     margin: 5px;
-    padding: 4em 9em;
+    padding: 4em 11.6rem;
 }
 
 .color_info {
@@ -38,6 +52,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 1.2em;
 }
 
 /* Limegreen */
@@ -65,24 +80,39 @@ header {
 @media screen 
 and (max-width: 768px)
 and (min-width: 426px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
     .containers {
-        width: 46rem;
+        width: 44.6rem;
     }
     .colored_div {
-        padding: 4rem 6.8447rem;
+        padding: 4rem 8rem;
     }
 }
 
 /* Mobile screen sizes */
 @media screen 
 and (max-width: 425px) 
-and (min-width: 376px) {   
+and (min-width: 376px) {  
+    h1 {
+        font-size: 1.859378rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
     .containers {
-        width: 25.5em;
+        width: 22.9rem;
     }
 
     .colored_div {
-        width: 100%;
         padding: 4rem 9rem;
     }
 }
@@ -90,20 +120,35 @@ and (min-width: 376px) {
 @media screen 
 and (max-width: 375px)
 and (min-width: 321px) {
+    h1 {
+        font-size: 1.640623rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
     .containers {
-        width: 22rem;
+        width: 19.7rem;
     }
     
     .colored_div {
-        width: 100%;
-        padding: 4rem 7rem;
+        padding: 4rem 7.4rem;
     }
 }
 
 
 @media screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
     .containers {
-        width: 19rem;
+        width: 16rem;
     }
 
     .colored_div {
