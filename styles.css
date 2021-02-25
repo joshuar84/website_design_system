@@ -76,6 +76,48 @@ h2 {
 }
 
 
+
+/* Fonts */
+.fonts_flex_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.font_div {
+    padding: 2.5em;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titillium_web {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bold_font {
+    font-weight: 700;
+}
+
+.italic_font {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.paragraph {
+    padding: 1em;
+}
+
+
 /* Tablet screen sizes */
 @media screen 
 and (max-width: 768px)
@@ -91,8 +133,17 @@ and (min-width: 426px) {
     .containers {
         width: 44.6rem;
     }
+
     .colored_div {
         padding: 4rem 8rem;
+    }
+
+    .fonts_flex_container {
+        justify-content: center;
+    }
+
+    .font_div {
+        padding: 1em;
     }
 }
 
@@ -115,6 +166,14 @@ and (min-width: 376px) {
     .colored_div {
         padding: 4rem 9rem;
     }
+
+    .fonts_flex_container {
+        justify-content: flex-start;
+    }
+
+    .font_div {
+        padding: 1em;
+    }
 }
 
 @media screen 
@@ -135,6 +194,14 @@ and (min-width: 321px) {
     .colored_div {
         padding: 4rem 7.4rem;
     }
+
+    .fonts_flex_container {
+        justify-content: center;
+    }
+
+    .font_div {
+        padding: 1em;
+    }
 }
 
 
@@ -153,5 +220,13 @@ and (min-width: 321px) {
 
     .colored_div {
         padding: 4rem 5.5rem;
+    }
+
+    .fonts_flex_container {
+        justify-content: center;
+    }
+
+    .font_div {
+        padding: 1em;
     }
 }
