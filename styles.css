@@ -3,24 +3,24 @@
     padding: 0;
     margin: 0;
 }
-
 html {
     font-size: 16px;
 }
+
+
 
 /* MAIN HEADERS */
 header {
     display: flex;
     justify-content: center;
 }
-
 h1 {
     font-size: 2.5rem;
 }
-
 h2 {
     font-size: 2rem;
 }
+
 
 
 /* Main containers */
@@ -31,6 +31,8 @@ h2 {
     max-width: 60rem;
 }
 
+
+
 /* Color section */
 .color_flex_container {
     display: flex;
@@ -38,13 +40,11 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .colored_div {
     border: 1px gray solid;
     margin: 5px;
     padding: 4em 11.6rem;
 }
-
 .color_info {
     width: 85px;
     height: 38px;
@@ -54,22 +54,18 @@ h2 {
     flex-wrap: wrap;
     font-size: 1.2em;
 }
-
 /* Limegreen */
 #color1 {
     background-color: #32cd32;
 }
-
 /* Darkred */
 #color2 {
     background-color: #8b0000;
 }
-
 /* Purple */
 #color3 {
     background-color: #800080;
 }
-
 /* Burlywood */
 #color4 {
     background-color: #deb887;
@@ -84,39 +80,51 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .font_div {
     padding: 2.5em;
 }
-
 .raleway {
     font-family: 'Raleway', sans-serif;
 }
-
 .ubuntu {
     font-family: 'Ubuntu', sans-serif;
 }
-
 .titillium_web {
     font-family: 'Titillium Web', sans-serif;
 }
-
 .bold_font {
     font-weight: 700;
 }
-
 .italic_font {
     font-style: italic;
 }
-
 .underline {
     text-decoration: underline;
 }
-
 .paragraph {
     padding: 1em;
 }
 
+
+
+/* Text Styles */
+.text_styles_flex_container {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text_styles_div {
+    padding: 2rem;
+}
+.list_styles {
+    position: relative;
+    left: 2rem;
+    top: 0.5rem;
+}
 
 /* Tablet screen sizes */
 @media screen 
@@ -139,7 +147,10 @@ and (min-width: 426px) {
     }
 
     .fonts_flex_container {
-        justify-content: center;
+        justify-content: flex-start;
+        position: relative;
+        width: 26rem;
+        margin: 0 auto;
     }
 
     .font_div {
@@ -175,7 +186,6 @@ and (min-width: 376px) {
         padding: 1em;
     }
 }
-
 @media screen 
 and (max-width: 375px)
 and (min-width: 321px) {
@@ -203,8 +213,6 @@ and (min-width: 321px) {
         padding: 1em;
     }
 }
-
-
 @media screen and (max-width: 320px) {
     h1 {
         font-size: 1.4rem;
